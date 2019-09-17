@@ -1,0 +1,14 @@
+name: "An hour in the life"
+navbar:
+  title: '<div><img src="img/PLAY-logo.png"></img>&emsp;An hour in the life</div>'
+#  left:
+#    - text: "main"
+#      href: main.html
+#    - text: "details"
+#      href: details.html
+output_dir: "docs"
+output:
+  html_document:
+    theme: lumen
+    highlight: textmate
+    css: css/play.css
