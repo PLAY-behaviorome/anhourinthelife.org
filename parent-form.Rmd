@@ -3,7 +3,7 @@
 <area target="_top" alt="" title="" href="" coords="35,182,54" shape="circle">
 <area target="" alt="" title="" href="" coords="" shape="0">
 -->
-<img src="img/PLAY-collection-sites-red-dim-blur.png" width=1000><br>
+<img src="img/PLAY-collection-sites-labeled.png" width=1000><br>
 
 <!--
 <map name="image-map">

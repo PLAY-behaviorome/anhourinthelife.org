@@ -12,12 +12,9 @@ output:
 
 <img src="img/PLAY-momchild.png" width=1000><br>
 
-
-### University researchers are joining forces to learn about what moms and children do at home. 
-
 <div class="img1000">    
 <br><br>
-Experienced researchers will visit the homes of participating families and record a slice of the daily lives of mothers and children. Participating families may help scientists to better understand how children learn in the home.
+University researchers from across North America are coming together to learn about what moms and children do at home. They are looking for interested families with young children (up to 2 years of age). Experienced researchers will visit the homes of participating families and record a slice of the daily lives of mothers and children. This study may help scientists to better understand how children learn in the home.
 </div>
     
 <br>
@@ -37,7 +34,7 @@ You and your child will be eligible to participate in this study if all six of t
 
 <br>
 
-### What you can expect
+### What families can expect
 
 <div class="img1000">
 - <p>A home visit from a researcher (2-2.5hrs long)</p>
