@@ -4,8 +4,8 @@
   padding: 10px;
 }
 
-.img640 {
-  max-width: 640px;
+.img1000 {
+  max-width: 1000px;
   margin: 0;
   text-align: left; 
 }
@@ -51,12 +51,12 @@ indent {
 }
 
 p-small {
-  font-size: 100%;
+  font-size: 90%;
   line-height: 150%;
 }
 
 p, td {
-  font-size: 110%;
+  font-size: 120%;
 }
 
 pre {
@@ -88,7 +88,3 @@ say-es:after  { content: close-quote; }
 th {
   font-size: 110%;
 }
-
-
-
-

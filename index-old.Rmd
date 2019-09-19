@@ -8,16 +8,13 @@ output:
 
 # An hour in the life...
 
-### A study that looks at how moms and children behave in their natural home environments.
+### A study that looks at how mothers and children behave in their natural home environments.
 
 <img src="img/PLAY-momchild.png" width=1000><br>
 
 
-### University researchers are joining forces to learn about what moms and children do at home. 
-
 <div class="img1000">    
-<br><br>
-Experienced researchers will visit the homes of participating families and record a slice of the daily lives of mothers and children. Participating families may help scientists to better understand how children learn in the home.
+Researchers in universities across North America are coming together to learn about what mothers and children do at home. Experienced researchers will visit the homes of participating families and record a slice of the daily lives of mothers and children. Participating families may help scientists to better understand how children learn in the home.
 </div>
     
 <br>
@@ -28,11 +25,11 @@ Experienced researchers will visit the homes of participating families and recor
 You and your child will be eligible to participate in this study if all six of these are true:
 
 1. <p>Your child is the **only child** in the home (i.e. has no siblings)</p>
-2. <p>Only **English and/or Spanish** is/are spoken at home</p>
-3. <p>Your child was **born at term** (37-41 weeks)</p>
-4. <p>Your child has **no diagnosed disabilities** (cognitive, auditory, vision, motor)</p>
-5. <p>Both biological **parents were at least 21** when the child was born</p>
-6. <p>You are willing to **share the video recordings** with other researchers <br>(through a secure web-based library available only to authorized researchers)</p>
+2. Only **English and/or Spanish** is/are spoken at home
+3. Your child was **born at term** (37-41 weeks)
+4. Your child has **no diagnosed disabilities** (cognitive, auditory, vision, motor)
+5. Both biological **parents were at least 21** when the child was born
+6. You are willing to **share the video recordings** with other researchers <br>(through a secure web-based library available only to authorized researchers)
 </div>
 
 <br>
@@ -44,10 +41,19 @@ You and your child will be eligible to participate in this study if all six of t
 - <p>You and your child will go about your daily activities</p>
 - <p>Researcher will record audio and video</p>
 - <p>Researcher will ask some questions your home, child and family</p>
-- <p>**You will receive a \$50 gift card for your participation.**</p>
+- <p>**_You will receive a \$50 gift card for your participation._**</p>
 </div>
 <div class="img1000">
 <p-small>*Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday life.*</p-small>
+</div>
+
+
+
+This single-session study will last between 120 and 180 minutes. If you agree to be in this study, we will ask you and your child to go about your daily activities for an hour in your home while we film you. We will also film the rooms in your home, measure the spaces that are accessible to your child, and record the decibel level of ambient noise in your home. We will ask you and your child to play with a set of child-friendly toys for a few minutes. Finally, we will ask you some questions about your child's skills and routines and about your home and family. 
+
+#### **_You will receive a \$50 gift card for your participation._**
+
+Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday life.
 </div>
 
 <br>
