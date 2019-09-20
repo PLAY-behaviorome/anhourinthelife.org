@@ -1,0 +1,57 @@
+
+### Participating universities
+
+<table width=1000>
+<tr>
+<td><img src="img/logos/Boston University.png" width=90 height=90, title="Boston University">
+<td><img src="img/logos/California State University at Fullerton.png" width=90 height=90, title="California State University at Fullerton">
+<td><img src="img/logos/California State University at Long Beach.png" width=90 height=90, title="California State University at Long Beach">
+<td><img src="img/logos/Children's Hospital of Philadelphia.jpeg" width=90 height=90, title="Children's Hospital of Philadelphia">
+<td><img src="img/logos/Cornell University.png" width=90 height=90, title="Cornell University">
+<td><img src="img/logos/CUNY College of Staten Island.jpeg" width=90 height=90, title="CUNY College of Staten Island">
+<td><img src="img/logos/Georgetown University.png" width=90 height=90, title="Georgetown University">
+<td><img src="img/logos/Indiana University.jpg" width=90 height=90, title="Indiana University">
+<td><img src="img/logos/Michigan State University.png" width=90 height=90, title="Michigan State University">
+<td><img src="img/logos/New York University.png" width=90 height=90, title="New York University">
+</tr>
+<tr>
+<td> &nbsp;
+</tr>
+<tr>
+<td><img src="img/logos/Ohio State University.png" width=90 height=90, title="Ohio State University">
+<td><img src="img/logos/Penn State University.png" width=90 height=90, title="Penn State University">
+<td><img src="img/logos/Princeton University.gif" width=90 height=90, title="Princeton University">
+<td><img src="img/logos/Purdue University.png" width=90 height=90, title="Purdue University">
+<td><img src="img/logos/Rutgers University.png" width=90 height=90, title="Rutgers University">
+<td><img src="img/logos/Stanford University.png" width=90 height=90, title="Stanford University">
+<td><img src="img/logos/Tulane University.png" width=90 height=90, title="Tulane University">
+<td><img src="img/logos/University of California at Davis.png" width=90 height=90, title="University of California at Davis">
+<td><img src="img/logos/University of California at Merced.png" width=90 height=90, title="University of California at Merced">
+<td><img src="img/logos/University of California at Riverside.png" width=90 height=90, title="University of California at Riverside">
+</tr>
+<tr>
+<td> &nbsp;
+</tr>
+<tr>
+<td><img src="img/logos/University of California at Santa Cruz.png" width=90 height=90, title="University of California at Santa Cruz">
+<td><img src="img/logos/University of Chicago.png" width=90 height=90, title="University of Chicago">
+<td><img src="img/logos/University of Georgia.png" width=90 height=90, title="University of Georgia">
+<td><img src="img/logos/University of Houston.png" width=90 height=90, title="University of Houston">
+<td><img src="img/logos/University of Miami.png" width=90 height=90, title="University of Miami">
+<td><img src="img/logos/University of Oregon.jpg" width=90 height=90, title="University of Oregon">
+<td><img src="img/logos/University of Pittsburgh.png" width=90 height=90, title="University of Pittsburgh">
+<td><img src="img/logos/University of Texas at Austin.png" width=90 height=90, title="University of Texas at Austin">
+<td><img src="img/logos/Vanderbilt University.png" width=90 height=90, title="Vanderbilt University">
+<td><img src="img/logos/Virginia Commonwealth University.png" width=90 height=90, title="Virginia Commonwealth University">
+</tr>
+</table>
+
+<br><br>
+
+### Support
+
+<div class="img1000"> 
+This project is supported by grants from the Office of the Director, National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute for Child Health and Human Development (NICHD), the National Institute of Mental Health (NIMH), and the National Institute on Drug Abuse (NIDA) under R01HD094830-01, the LEGO Foundation, and the Alfred P. Sloan Foundation.
+</div>
+
+<img src="img/logos/support.png">

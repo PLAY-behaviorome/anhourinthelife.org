@@ -8,40 +8,27 @@ output:
 
 # An hour in the life...
 
-### A study that looks at how moms and children behave in their natural home environments.
+### A study of what babies do in their everyday home environments.
 
 <img src="img/PLAY-momchild.png" width=1000><br>
 
 <div class="img1000">    
 <br><br>
-University researchers from across North America are coming together to learn about what moms and children do at home. They are looking for interested families with young children (up to 2 years of age). Experienced researchers will visit the homes of participating families and record a slice of the daily lives of mothers and children. This study may help scientists to better understand how children learn in the home.
+We are university researchers launching the first large-scale study on what babies do at home! We are inviting one thousand families across North America with babies (up to 2 years of age) to participate in this exciting study. Experienced researchers will visit your home and record a slice of your daily life. You will be helping scientists to better understand how children learn in the home.
 </div>
     
-<br>
-
-### Eligibility for participation
-
-<div class="img1000">    
-You and your child will be eligible to participate in this study if all six of these are true:
-
-1. <p>Your child is the **only child** in the home (i.e. has no siblings)</p>
-2. <p>Only **English and/or Spanish** is/are spoken at home</p>
-3. <p>Your child was **born at term** (37-41 weeks)</p>
-4. <p>Your child has **no diagnosed disabilities** (cognitive, auditory, vision, motor)</p>
-5. <p>Both biological **parents were at least 21** when the child was born</p>
-6. <p>You are willing to **share the video recordings** with other researchers <br>(through a secure web-based library available only to authorized researchers)</p>
-</div>
-
 <br>
 
 ### What families can expect
 
 <div class="img1000">
-- <p>A home visit from a researcher (2-2.5hrs long)</p>
+- <p>A home visit from a researcher (2-3 hours long)</p>
 - <p>You and your child will go about your daily activities</p>
-- <p>Researcher will record audio and video</p>
 - <p>Researcher will ask some questions your home, child and family</p>
+- <p>Researcher will video record the entire visit</p>
+- <p>Videos will be placed in a secure video library that is available only to researchers</p>
 - <p>**You will receive a \$50 gift card for your participation.**</p>
+
 </div>
 <div class="img1000">
 <p-small>*Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday life.*</p-small>
@@ -52,77 +39,11 @@ You and your child will be eligible to participate in this study if all six of t
 ### Sign up and be a part of something big
 
 <div class="img1000">    
-We would love for you and your child to participate! If you are interested, and if you are elgible to participate, please look up the closest university on the map and sign up using the form below.
+We would love for you and your child to participate! If you are interested, please look up the nearest university below and sign up using the form beneath the map.
 </div>
 
 ```{r child = 'parent-form.Rmd'}
 ```
 
-### List of universities where you can participate
-
-##### California
-* California State University at Fullerton    
-* California State University at Long Beach
-* Stanford University
-* University of California at Davis
-* University of California at Merced
-* University of California at Riverside
-* University of California at Santa Cruz
-
-##### District of Columbia
-* Georgetown University
-
-##### Florida
-* University of Miami
-
-##### Georgia
-* University of Georgia
-
-##### Illinois
-* University of Chicago
-* University of Chicago
-
-##### Indiana
-* Indiana University
-* Purdue University
-
-##### Louisiana
-* Tulane University
-
-##### Massachusetts
-* Boston University
-
-##### Michigan
-* Michigan State University
-
-##### New Jersey
-* Princeton University
-* Rutgers University
-
-##### New York
-* City University of New York, College of Staten Island
-* Cornell University
-* New York University
-
-##### Ohio
-* Ohio State University
-
-##### Oregon
-* University of Oregon
-
-##### Pennsylvania
-* Children's Hospital of Philadelphia
-* Penn State University
-* University of Pittsburgh
-
-##### Tennessee
-* Vanderbilt University
-
-##### Texas
-* University of Houston
-* University of Texas at Austin
-
-##### Virginia
-* Virginia Commonwealth University
-
-
+```{r child = 'univs-support.Rmd'}
+```

@@ -10,6 +10,10 @@
   text-align: left; 
 }
 
+.imgheight {
+  height: 50px;
+}
+
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
   background-color: #669966;
   
@@ -85,6 +89,7 @@ say-es {
 say-es:before { content: open-quote; }
 say-es:after  { content: close-quote; }
 
+table { table-layout: fixed; }
 th {
   font-size: 110%;
 }
