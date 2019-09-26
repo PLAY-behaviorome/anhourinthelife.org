@@ -10,7 +10,11 @@ output:
 
 ### A study of what babies do in their everyday home environments.
 
-<img src="img/PLAY-momchild.png" width=1000><br>
+<!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
+
+<video width="100%" controls>
+  <source src="img/PLAY-parents.mp4" type="video/mp4">
+</video>
 
 <div class="img1000">    
 <br><br>
