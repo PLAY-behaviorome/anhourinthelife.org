@@ -1,6 +1,4 @@
 
-### Participating universities
-
 <table width=1000>
 <tr>
 <td><img src="img/logos/Boston University.png" width=90 height=90, title="Boston University">
@@ -47,11 +45,3 @@
 </table>
 
 <br><br>
-
-### Support
-
-<div class="img1000"> 
-This project is supported by grants from the Office of the Director, National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute for Child Health and Human Development (NICHD), the National Institute of Mental Health (NIMH), and the National Institute on Drug Abuse (NIDA) under R01HD094830-01, the LEGO Foundation, and the Alfred P. Sloan Foundation.
-</div>
-
-<img src="img/logos/support.png">

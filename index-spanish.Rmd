@@ -56,6 +56,16 @@ output:
 
 ```{r child = 'parent-form-spanish.Rmd'}
 ```
+### Universidades participantes
 
-```{r child = 'univs-support.Rmd'}
+```{r child = 'univs.Rmd'}
 ```
+
+### Apoyo
+
+<div class="img1000"> 
+Este proyecto tiene apoyo vía fondos otorgados por la Oficina del Director, Institutos Nacionales de Salud (NIH), Instituto Nacional de Salud Infantil y Desarrollo Humano Eunice Kennedy Shriver (NICHD), Instituto Nacional de Salud Mental (NIMH), y el Instituto Nacional sobre el Abuso de Drogas bajo R01HD094830-01, LEGO Foundation, y la Fundacion Alfred P. Sloan.
+</div>
+
+<img src="img/logos/support.png">
+
