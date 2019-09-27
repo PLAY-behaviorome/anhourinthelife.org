@@ -6,6 +6,14 @@ output:
 ---
 <br>
 
+<div style="text-align:right">
+<div class="videobuttons">
+<button size="xs" type="button" data-toggle="collapse" data-target="#parents-spanish">
+[Spanish](index-spanish.html)
+</button>
+</div>
+</div>
+
 # An hour in the life...
 
 ### A study of what babies do in their everyday home environments.
