@@ -1,46 +1,76 @@
 
-<table width=1000>
+<table width=900>
 <tr>
+<td><img src="img/logos/Arizona State University.png" width=90 height=90, title="Arizona State University">
 <td><img src="img/logos/Boston University.png" width=90 height=90, title="Boston University">
+<td><img src="img/logos/Brooklyn College.png" width=90 height=90, title="Brooklyn College">
+<td><img src="img/logos/Brown University.png" width=90 height=90, title="Brown University">
 <td><img src="img/logos/California State University at Fullerton.png" width=90 height=90, title="California State University at Fullerton">
 <td><img src="img/logos/California State University at Long Beach.png" width=90 height=90, title="California State University at Long Beach">
+<td><img src="img/logos/Carnegie Mellon University.png" width=90 height=90, title="Carnegie Mellon University">
 <td><img src="img/logos/Children's Hospital of Philadelphia.jpeg" width=90 height=90, title="Children's Hospital of Philadelphia">
+<td><img src="img/logos/College of William & Mary.png" width=90 height=90, title="College of William & Mary">
 <td><img src="img/logos/Cornell University.png" width=90 height=90, title="Cornell University">
-<td><img src="img/logos/CUNY College of Staten Island.jpeg" width=90 height=90, title="CUNY College of Staten Island">
-<td><img src="img/logos/Georgetown University.png" width=90 height=90, title="Georgetown University">
-<td><img src="img/logos/Indiana University.jpg" width=90 height=90, title="Indiana University">
-<td><img src="img/logos/Michigan State University.png" width=90 height=90, title="Michigan State University">
-<td><img src="img/logos/New York University.png" width=90 height=90, title="New York University">
 </tr>
 <tr>
 <td> &nbsp;
 </tr>
 <tr>
+<td><img src="img/logos/CUNY College of Staten Island.jpeg" width=90 height=90, title="CUNY College of Staten Island">
+<td><img src="img/logos/Georgetown University.png" width=90 height=90, title="Georgetown University">
+<td><img src="img/logos/Harvard University.png" width=90 height=90, title="Harvard University">
+<td><img src="img/logos/Indiana University.jpg" width=90 height=90, title="Indiana University">
+<td><img src="img/logos/Lehigh University.jpg" width=90 height=90, title="Lehigh University">
+<td><img src="img/logos/Michigan State University.png" width=90 height=90, title="Michigan State University">
+<td><img src="img/logos/Mount Allison University.png" width=90 height=90, title="Mount Allison University">
+<td><img src="img/logos/New York University.png" width=90 height=90, title="New York University">
+<td><img src="img/logos/NICHD.jpg" width=90 height=90, title="National Institute for Child Health and Human Development">
 <td><img src="img/logos/Ohio State University.png" width=90 height=90, title="Ohio State University">
+</tr>
+<tr>
+<td> &nbsp;
+</tr>
+<tr>
 <td><img src="img/logos/Penn State University.png" width=90 height=90, title="Penn State University">
 <td><img src="img/logos/Princeton University.gif" width=90 height=90, title="Princeton University">
 <td><img src="img/logos/Purdue University.png" width=90 height=90, title="Purdue University">
 <td><img src="img/logos/Rutgers University.png" width=90 height=90, title="Rutgers University">
+<td><img src="img/logos/Society for Research In Child Development.jpg" width=90 height=90, title="Society for Research In Child Development">
 <td><img src="img/logos/Stanford University.png" width=90 height=90, title="Stanford University">
+<td><img src="img/logos/Temple University.png" width=90 height=90, title="Temple University">
+<td><img src="img/logos/Texas A&M.png" width=90 height=90, title="Texas A&M University">
 <td><img src="img/logos/Tulane University.png" width=90 height=90, title="Tulane University">
 <td><img src="img/logos/University of California at Davis.png" width=90 height=90, title="University of California at Davis">
-<td><img src="img/logos/University of California at Merced.png" width=90 height=90, title="University of California at Merced">
-<td><img src="img/logos/University of California at Riverside.png" width=90 height=90, title="University of California at Riverside">
 </tr>
 <tr>
 <td> &nbsp;
 </tr>
 <tr>
+<td><img src="img/logos/University of California at Los Angeles.png" width=90 height=90, title="University of California at Los Angeles">
+<td><img src="img/logos/University of California at Merced.png" width=90 height=90, title="University of California at Merced">
+<td><img src="img/logos/University of California at Riverside.png" width=90 height=90, title="University of California at Riverside">
 <td><img src="img/logos/University of California at Santa Cruz.png" width=90 height=90, title="University of California at Santa Cruz">
 <td><img src="img/logos/University of Chicago.png" width=90 height=90, title="University of Chicago">
+<td><img src="img/logos/University of Connecticut.png" width=90 height=90, title="University of Connecticut">
 <td><img src="img/logos/University of Georgia.png" width=90 height=90, title="University of Georgia">
 <td><img src="img/logos/University of Houston.png" width=90 height=90, title="University of Houston">
+<td><img src="img/logos/University of Illinois at Urbana-Champagne.png" width=90 height=90, title="University of Illinois at Urbana-Champagne">
+<td><img src="img/logos/University of Manitoba.png" width=90 height=90, title="University of Manitoba">
+</tr>
+<tr>
+<td> &nbsp;
+</tr>
+<tr>
 <td><img src="img/logos/University of Miami.png" width=90 height=90, title="University of Miami">
 <td><img src="img/logos/University of Oregon.jpg" width=90 height=90, title="University of Oregon">
 <td><img src="img/logos/University of Pittsburgh.png" width=90 height=90, title="University of Pittsburgh">
 <td><img src="img/logos/University of Texas at Austin.png" width=90 height=90, title="University of Texas at Austin">
+<td><img src="img/logos/University of Toronto Scarborough.png" width=90 height=90, title="University of Toronto Scarborough">
+<td><img src="img/logos/University of Washington.png" width=90 height=90, title="University of Washington">
+<td><img src="img/logos/University of Waterloo.png" width=90 height=90, title="University of Waterloo">
 <td><img src="img/logos/Vanderbilt University.png" width=90 height=90, title="Vanderbilt University">
 <td><img src="img/logos/Virginia Commonwealth University.png" width=90 height=90, title="Virginia Commonwealth University">
+<td><img src="img/logos/Williams College.jpeg" width=90 height=90, title="Williams College">
 </tr>
 </table>
 

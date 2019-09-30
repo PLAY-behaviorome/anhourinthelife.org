@@ -4,13 +4,16 @@ output:
   html_document:
     toc: false
 ---
-<div style="text-align:right">
+<!--<div style="text-align:right">
 <div class="videobuttons">
 <button size="xs" type="button" data-toggle="collapse" data-target="#parents-spanish">
 [Spanish](index-spanish.html)
 </button>
 </div>
-</div>
+</div>--> 
+
+<br>
+
 # An hour in the life...
 
 ### A study of what babies do in their everyday home environments.
@@ -23,7 +26,7 @@ output:
 
 <div class="img1000">    
 <br><br>
-We are university researchers launching the first large-scale study on what babies do at home! We are inviting one thousand families across North America with babies (up to 2 years of age) to participate in this exciting study. Experienced researchers will visit your home and record a slice of your daily life. You will be helping scientists to better understand how children learn in the home.
+We are researchers launching the first large-scale study on what babies do at home! We are inviting one thousand families across the United States with babies (up to 2 yrs of age) to participate in this exciting study. Experienced researchers will visit your home and record a slice of your daily life. You will be helping scientists to better understand how children learn and develop.
 </div>
     
 <br>
@@ -32,15 +35,15 @@ We are university researchers launching the first large-scale study on what babi
 
 <div class="img1000">
 - <p>A home visit from a researcher (2-3 hours long)</p>
-- <p>You and your child will go about your daily activities</p>
-- <p>Researcher will ask some questions your home, child and family</p>
+- <p>You and your baby will go about your daily activities</p>
+- <p>Researcher will ask you some questions about your home, baby and family</p>
 - <p>Researcher will video record the entire visit</p>
 - <p>Videos will be placed in a secure video library that is available only to researchers</p>
 - <p>**You will receive a \$50 gift card for your participation.**</p>
 
 </div>
 <div class="img1000">
-<p-small>*Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday life.*</p-small>
+<p-small>*Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday&nbsp;life.*</p-small>
 </div>
 
 <br>
@@ -48,20 +51,20 @@ We are university researchers launching the first large-scale study on what babi
 ### Sign up and be a part of something big
 
 <div class="img1000">    
-We would love for you and your child to participate! If you are interested, please look up the nearest university below and sign up using the form beneath the map.
+We'd love for you and your child to participate! If you are interested, please look up the nearest university below and sign up using the form beneath the map.
 </div>
 
 ```{r child = 'parent-form.Rmd'}
 ```
-### Participating universities
+### Participating universities and instutitions
 
 ```{r child = 'univs.Rmd'}
 ```
 
 ### Support
 
-<div class="img1000"> 
+<!--<div class="img1000"> 
 This project is supported by grants from the Office of the Director, National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute for Child Health and Human Development (NICHD), the National Institute of Mental Health (NIMH), and the National Institute on Drug Abuse (NIDA) under R01HD094830-01, the LEGO Foundation, and the Alfred P. Sloan Foundation.
-</div>
+</div>-->
 
-<img src="img/logos/support.png">
+<img src="img/logos/support.png" width=1000>
