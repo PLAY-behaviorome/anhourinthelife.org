@@ -4,13 +4,13 @@ output:
   html_document:
     toc: false
 ---
-<!--<div style="text-align:right">
+<div style="text-align:right">
 <div class="videobuttons">
 <button size="xs" type="button" data-toggle="collapse" data-target="#parents-spanish">
 [Spanish](index-spanish.html)
 </button>
 </div>
-</div>--> 
+</div> 
 
 <br>
 
