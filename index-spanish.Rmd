@@ -13,7 +13,7 @@ output:
 </div>
 # Una hora en la vida…
 
-### Un estudio de lo que hacen los bebes día a día en el entorno de sus hogares.
+### Un estudio de lo que hacen los bebes diariamente en su hogar.
 
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 
@@ -23,7 +23,7 @@ output:
 
 <div class="img1000">    
 <br><br>
-¡Somos investigadores universitarios lanzando el primer estudio en gran escala sobre lo que hacen los bebes en el hogar! Estamos invitando a mil familias a través de Norte América con bebes (de hasta 2 años de edad) a participar en este innovador estudio. Investigadores expertos visitaran su hogar y grabaran un pedacito de su vida diaria. Su participación ayudara a científicos entender con mejor certitud como es que los niños aprenden en casa.
+¡Somos investigadores universitarios conduciendo el primer estudio en gran escala sobre lo que los bebes hacen en su hogar! Estamos invitando a participar en este innovador estudio a mil familias con bebes (de hasta 2 años de edad) a través de Norte América. Investigadores expertos visitarán su hogar y grabarán un pedacito de su vida diaria. Usted ayudará a que los científicos entiendan de mejor manera como los niños aprenden en su hogar.
 </div>
     
 <br>
@@ -34,8 +34,8 @@ output:
 - <p>Una visita a su hogar por un investigador (2-3 horas de duración)</p>
 - <p>Usted y su hijo/a realizaran sus actividades rutinarias</p>
 - <p>El investigador le hará algunas preguntas sobre su casa, hijo/a, y familia</p>
-- <p>El investigador grabara en video la visita entera</p>
-- <p>Los videos se guardaran en una video biblioteca segura la cual solo otros investigadores tendrán acceso</p>
+- <p>El investigador grabará toda la visita en video
+- <p>Los videos se colocarán en una video biblioteca segura a la cual solo otros investigadores tendrán acceso
 - <p>**Usted recibirá una tarjeta de regalo valorada en $50 por su participación.**</p>
 
 </div>
