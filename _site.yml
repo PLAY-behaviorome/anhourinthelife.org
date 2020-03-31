@@ -9,6 +9,7 @@ navbar:
 output_dir: "docs"
 output:
   html_document:
+    title: "An hour in the life"
     theme: lumen
     highlight: textmate
     css: css/play.css
