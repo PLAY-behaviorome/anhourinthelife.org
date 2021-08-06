@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Una hora en la vida..."
 output:
   html_document:
     toc: false
@@ -11,9 +11,7 @@ output:
 </button>
 </div>
 </div>
-# Una hora en la vida…
-
-### Un estudio de lo que hacen los bebes diariamente en su hogar.
+## Un estudio de lo que hacen los bebes diariamente en su hogar
 
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 

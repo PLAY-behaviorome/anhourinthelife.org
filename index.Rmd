@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "An hour in the life..."
 output:
   html_document:
     toc: false
@@ -12,11 +12,7 @@ output:
 </div>
 </div> 
 
-<br>
-
-# An hour in the life...
-
-### A study of what babies do in their everyday home environments.
+## A study of what babies do in their everyday home environments
 
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 
