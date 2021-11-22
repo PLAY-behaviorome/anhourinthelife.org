@@ -60,10 +60,6 @@ We'd love for you and your child to participate! If you are interested, please l
 
 ```{r child = 'parent-form.Rmd'}
 ```
-### Participating universities and instutitions
-
-```{r child = 'univs.Rmd'}
-```
 
 ### Support
 
