@@ -51,10 +51,6 @@ output:
 
 ```{r child = 'parent-form-spanish.Rmd'}
 ```
-### Universidades participantes
-
-```{r child = 'univs.Rmd'}
-```
 
 ### Apoyo
 
