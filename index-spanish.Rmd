@@ -16,7 +16,7 @@ output:
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 
 <video width="100%" controls>
-  <source src="img/PLAY-parents.mp4" type="video/mp4">
+  <source src="img/PLAY-parents-noaudio.mp4" type="video/mp4">
 </video>
 
 <div class="img1000">    
