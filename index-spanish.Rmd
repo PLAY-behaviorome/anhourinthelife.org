@@ -58,5 +58,5 @@ output:
 Este proyecto tiene apoyo vía fondos otorgados por la Oficina del Director, Institutos Nacionales de Salud (NIH), Instituto Nacional de Salud Infantil y Desarrollo Humano Eunice Kennedy Shriver (NICHD), Instituto Nacional de Salud Mental (NIMH), y el Instituto Nacional sobre el Abuso de Drogas bajo R01HD094830-01, LEGO Foundation, y la Fundacion Alfred P. Sloan.
 </div>
 
-<img src="img/logos/support.png">
+<img src="img/support.png">
 
