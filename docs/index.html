@@ -13,6 +13,7 @@
 
 <title>An hour in the life…</title>
 
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -56,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="css/play.css" type="text/css" />
 
 
@@ -80,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -266,14 +268,20 @@ $(document).ready(function () {
 </button>
 </div>
 </div>
-<div id="a-study-of-what-babies-do-in-their-everyday-home-environments" class="section level2">
+<div id="a-study-of-what-babies-do-in-their-everyday-home-environments"
+class="section level2">
 <h2>A study of what babies do in their everyday home environments</h2>
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 <video width="100%" controls>
 <source src="img/PLAY-parents-noaudio.mp4" type="video/mp4">
 </video>
 <div class="img1000">
-<p><br><br> We are researchers launching the first large-scale study on what babies do at home! We are inviting one thousand families across the United States with babies (up to 2 yrs of age) to participate in this exciting study. Experienced researchers will visit your home and record a slice of your daily life. You will be helping scientists to better understand how children learn and develop.</p>
+<p><br><br> We are researchers launching the first large-scale study on
+what babies do at home! We are inviting one thousand families across the
+United States with babies (up to 2 yrs of age) to participate in this
+exciting study. Experienced researchers will visit your home and record
+a slice of your daily life. You will be helping scientists to better
+understand how children learn and develop.</p>
 </div>
 <p><br></p>
 <div id="what-families-can-expect" class="section level3">
@@ -293,32 +301,31 @@ Researcher will ask you some questions about your home, baby and family
 Researcher will video record the entire visit
 </p></li>
 <li><p>
-Videos will be placed in a secure video library that is available only to researchers
+Videos will be placed in a secure video library that is available only
+to researchers
 </p></li>
 <li><p>
-<strong>You will receive a $50 gift card for your participation.</strong>
+<strong>You will receive a $50 gift card for your
+participation.</strong>
 </p></li>
 </ul>
 </div>
 <div class="img1000">
-<p><p-small><em>Your and your child’s participation are voluntary and you can choose to end a session at any time without loss of benefits. You have the right to review videos and other records of your home visit session and request that all or any portion of the data be destroyed. You have the right to skip any questions you do not wish to answer. There are no known risks associated with your child’s participation in this research beyond those of everyday life.</em></p-small></p>
+<p><p-small><em>Your and your child’s participation are voluntary and
+you can choose to end a session at any time without loss of benefits.
+You have the right to review videos and other records of your home visit
+session and request that all or any portion of the data be destroyed.
+You have the right to skip any questions you do not wish to answer.
+There are no known risks associated with your child’s participation in
+this research beyond those of everyday life.</em></p-small></p>
 </div>
-</div>
-<div id="covid-19-considerations" class="section level3">
-<h3>COVID-19 Considerations</h3>
-<p>Researchers abide by the following protections:</p>
-<ul>
-<li>Are <em>fully vaccinated</em></li>
-<li>Wear a <em>mask</em> at all times</li>
-<li>Will not physically interact with you or your child</li>
-<li>Clean any equipment that is placed on a home surface</li>
-</ul>
-<p>After each home visit, researchers sanitize anything brought into a home.</p>
 </div>
 <div id="sign-up-and-be-a-part-of-something-big" class="section level3">
 <h3>Sign up and be a part of something big</h3>
 <div class="img1000">
-<p>We’d love for you and your child to participate! If you are interested, please look up the nearest university below and sign up using the form beneath the map.</p>
+<p>We’d love for you and your child to participate! If you are
+interested, please look up the nearest university below and sign up
+using the form beneath the map.</p>
 </div>
 <p><img src="img/PLAY-sites.png" width=980><br></p>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-rkwiv7h4YztY0YqzDj8wSt43_pU0W_x9Lxu6ul9UASkKZw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">

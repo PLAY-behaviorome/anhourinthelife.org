@@ -13,6 +13,7 @@
 
 <title>Una hora en la vida…</title>
 
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -56,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="css/play.css" type="text/css" />
 
 
@@ -80,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -266,14 +268,21 @@ $(document).ready(function () {
 </button>
 </div>
 </div>
-<div id="un-estudio-de-lo-que-hacen-los-bebes-diariamente-en-su-hogar" class="section level2">
+<div id="un-estudio-de-lo-que-hacen-los-bebes-diariamente-en-su-hogar"
+class="section level2">
 <h2>Un estudio de lo que hacen los bebes diariamente en su hogar</h2>
 <!-- <img src="img/PLAY-momchild.png" width=1000><br> -->
 <video width="100%" controls>
 <source src="img/PLAY-parents-noaudio.mp4" type="video/mp4">
 </video>
 <div class="img1000">
-<p><br><br> ¡Somos investigadores universitarios conduciendo el primer estudio en gran escala sobre lo que los bebes hacen en su hogar! Estamos invitando a participar en este innovador estudio a mil familias con bebes (de hasta 2 años de edad) a través de Norte América. Investigadores expertos visitarán su hogar y grabarán un pedacito de su vida diaria. Usted ayudará a que los científicos entiendan de mejor manera como los niños aprenden en su hogar.</p>
+<p><br><br> ¡Somos investigadores universitarios conduciendo el primer
+estudio en gran escala sobre lo que los bebes hacen en su hogar! Estamos
+invitando a participar en este innovador estudio a mil familias con
+bebes (de hasta 2 años de edad) a través de Norte América.
+Investigadores expertos visitarán su hogar y grabarán un pedacito de su
+vida diaria. Usted ayudará a que los científicos entiendan de mejor
+manera como los niños aprenden en su hogar.</p>
 </div>
 <p><br></p>
 <div id="que-pueden-esperar-las-familias" class="section level3">
@@ -287,26 +296,38 @@ Una visita a su hogar por un investigador (2-3 horas de duración)
 Usted y su hijo/a realizaran sus actividades rutinarias
 </p></li>
 <li><p>
-El investigador le hará algunas preguntas sobre su casa, hijo/a, y familia
+El investigador le hará algunas preguntas sobre su casa, hijo/a, y
+familia
 </p></li>
 <li><p>
 El investigador grabará toda la visita en video</li>
 <li><p>
-Los videos se colocarán en una video biblioteca segura a la cual solo otros investigadores tendrán acceso</li>
+Los videos se colocarán en una video biblioteca segura a la cual solo
+otros investigadores tendrán acceso</li>
 <li><p>
-<strong>Usted recibirá una tarjeta de regalo valorada en $50 por su participación.</strong>
+<strong>Usted recibirá una tarjeta de regalo valorada en $50 por su
+participación.</strong>
 </p></li>
 </ul>
 </div>
 <div class="img1000">
-<p><p-small><em>Su participación y la de su hijo/a es voluntaria y usted puede elegir terminar una sesión en cualquier momento sin pérdida de beneficios. Usted tiene derecho a revisar los videos u otros archivos de la visita a su hogar y puede solicitar que todo o parte de los datos sean destruidos. Usted tiene derecho a omitir cualquier pregunta que no quiera responder. No hay riesgos conocidos asociados con la participación de su hijo/a en este estudio más allá de los de la vida cotidiana.</em></p-small></p>
+<p><p-small><em>Su participación y la de su hijo/a es voluntaria y usted
+puede elegir terminar una sesión en cualquier momento sin pérdida de
+beneficios. Usted tiene derecho a revisar los videos u otros archivos de
+la visita a su hogar y puede solicitar que todo o parte de los datos
+sean destruidos. Usted tiene derecho a omitir cualquier pregunta que no
+quiera responder. No hay riesgos conocidos asociados con la
+participación de su hijo/a en este estudio más allá de los de la vida
+cotidiana.</em></p-small></p>
 </div>
 <p><br></p>
 </div>
 <div id="regístrese-y-sea-parte-de-algo-grande" class="section level3">
 <h3>Regístrese y sea parte de algo grande</h3>
 <div class="img1000">
-<p>¡Nos encantaría que usted y su hijo/a participen! Si está interesado/a, por favor busque la universidad más cercana a usted e inscríbase usando el formulario debajo del mapa.</p>
+<p>¡Nos encantaría que usted y su hijo/a participen! Si está
+interesado/a, por favor busque la universidad más cercana a usted e
+inscríbase usando el formulario debajo del mapa.</p>
 </div>
 <p><img src="img/PLAY-sites.png" width=980><br></p>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgib1m-5U90jlACTdq0T2fvbl60qRWYRMRqSG9lknrqHeszQ/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">
